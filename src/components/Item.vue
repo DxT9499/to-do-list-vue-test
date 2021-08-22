@@ -137,9 +137,6 @@ export default {
 			this.$emit("is-done-changed");
 		},
 	},
-    updated(){
-        console.log('mount item')
-    }
 };
 </script>
 

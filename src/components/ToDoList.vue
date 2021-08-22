@@ -71,8 +71,6 @@ export default {
                     return item.id === data.id
                 })
             );
-            console.log(index)
-            console.log(data.name)
             this.items[index].name = data.newName;
             this.items[index].discription = data.newDiscription;
             this.items[index].dueDate = data.newDueDate;
